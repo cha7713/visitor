@@ -1,0 +1,13 @@
+<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script>
+  $.ajax({
+    url: 'http://ggoreb.com/json1.jsp',
+    success: a
+    // success: function(data) {
+    //   console.log(data);
+    // }
+  });
+  function a(data) {
+    console.log(data);
+  }
+</script>

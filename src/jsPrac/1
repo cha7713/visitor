@@ -1,0 +1,30 @@
+<script>
+  let 변수2 = 10;
+  const 변수3 = 10;
+
+  var 정수 = 10; // 가장 많이 사용
+  var 실수 = 10.0894;
+  var 문자열 = '작은따옴표';
+  var 문자열2 = "큰따옴표";
+  var 함수 = function() {
+    console.log("ddddd");
+    alert("경고창");
+  };
+  함수();
+
+  var 객체 = { // key:value
+    age: 100,
+    action: function() {
+      alert("객체 안의 action()")
+    },
+    person: {}
+  };
+  객체.action();
+
+
+</script>
+
+
+
+
+

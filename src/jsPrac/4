@@ -1,0 +1,16 @@
+<script>
+  var num = 0;
+  var f = function() {
+    return new Promise(function(resolve) {
+      // 작업
+      setTimeout(function() {
+        console.log('작업 0.5초', ++num);
+        resolve();
+      }, 500);
+    });
+  }
+  f().then(f).then(f).then(f);
+  function callback() {
+    console.log('resolve 후 실행');
+  }
+</script>

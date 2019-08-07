@@ -1,0 +1,21 @@
+<script>
+  var num = 0;
+  var f = function() {
+    return new Promise(function(resolve) {
+      // 작업
+      setTimeout(function() {
+        console.log('작업 0.5초', ++num);
+        resolve();
+      }, 500);
+    });
+  }
+  // promise - then 대신 await 사용 가능
+  // await를 사용하기 위해서는 함수 앞에 async 키워드 필수
+  async function run() {
+    await f();
+    await f();
+    await f();
+  }
+  
+  run();
+</script>

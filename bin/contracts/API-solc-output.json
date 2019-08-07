@@ -1,0 +1,190 @@
+{
+    "contracts": {
+        "c:/dev/klaytn/sample/contracts/API.sol": {
+            "API": {
+                "abi": [
+                    {
+                        "constant": true,
+                        "inputs": [],
+                        "name": "responseString",
+                        "outputs": [
+                            {
+                                "name": "",
+                                "type": "string"
+                            }
+                        ],
+                        "payable": false,
+                        "stateMutability": "pure",
+                        "type": "function"
+                    }
+                ],
+                "devdoc": {
+                    "methods": {}
+                },
+                "evm": {
+                    "bytecode": {
+                        "linkReferences": {},
+                        "object": "608060405234801561001057600080fd5b5061012a806100206000396000f300608060405260043610603e5763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663637a139581146043575b600080fd5b348015604e57600080fd5b50605560c7565b6040805160208082528351818301528351919283929083019185019080838360005b83811015608d5781810151838201526020016077565b50505050905090810190601f16801560b95780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60408051808201909152600981527febb098ed9998eab09200000000000000000000000000000000000000000000006020820152905600a165627a7a7230582010e562af429627992cf5a5c032a0775af077210be856594e26c7c855ca1590eb0029",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0x10 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH2 0x12A DUP1 PUSH2 0x20 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN STOP PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x4 CALLDATASIZE LT PUSH1 0x3E JUMPI PUSH4 0xFFFFFFFF PUSH29 0x100000000000000000000000000000000000000000000000000000000 PUSH1 0x0 CALLDATALOAD DIV AND PUSH4 0x637A1395 DUP2 EQ PUSH1 0x43 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST CALLVALUE DUP1 ISZERO PUSH1 0x4E JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x55 PUSH1 0xC7 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD PUSH1 0x20 DUP1 DUP3 MSTORE DUP4 MLOAD DUP2 DUP4 ADD MSTORE DUP4 MLOAD SWAP2 SWAP3 DUP4 SWAP3 SWAP1 DUP4 ADD SWAP2 DUP6 ADD SWAP1 DUP1 DUP4 DUP4 PUSH1 0x0 JUMPDEST DUP4 DUP2 LT ISZERO PUSH1 0x8D JUMPI DUP2 DUP2 ADD MLOAD DUP4 DUP3 ADD MSTORE PUSH1 0x20 ADD PUSH1 0x77 JUMP JUMPDEST POP POP POP POP SWAP1 POP SWAP1 DUP2 ADD SWAP1 PUSH1 0x1F AND DUP1 ISZERO PUSH1 0xB9 JUMPI DUP1 DUP3 SUB DUP1 MLOAD PUSH1 0x1 DUP4 PUSH1 0x20 SUB PUSH2 0x100 EXP SUB NOT AND DUP2 MSTORE PUSH1 0x20 ADD SWAP2 POP JUMPDEST POP SWAP3 POP POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN JUMPDEST PUSH1 0x40 DUP1 MLOAD DUP1 DUP3 ADD SWAP1 SWAP2 MSTORE PUSH1 0x9 DUP2 MSTORE PUSH32 0xEBB098ED9998EAB0920000000000000000000000000000000000000000000000 PUSH1 0x20 DUP3 ADD MSTORE SWAP1 JUMP STOP LOG1 PUSH6 0x627A7A723058 KECCAK256 LT 0xe5 PUSH3 0xAF4296 0x27 SWAP10 0x2c 0xf5 0xa5 0xc0 ORIGIN LOG0 PUSH24 0x5AF077210BE856594E26C7C855CA1590EB00290000000000 ",
+                        "sourceMap": "28:116:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;28:116:0;;;;;;;"
+                    },
+                    "deployedBytecode": {
+                        "linkReferences": {},
+                        "object": "608060405260043610603e5763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663637a139581146043575b600080fd5b348015604e57600080fd5b50605560c7565b6040805160208082528351818301528351919283929083019185019080838360005b83811015608d5781810151838201526020016077565b50505050905090810190601f16801560b95780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60408051808201909152600981527febb098ed9998eab09200000000000000000000000000000000000000000000006020820152905600a165627a7a7230582010e562af429627992cf5a5c032a0775af077210be856594e26c7c855ca1590eb0029",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x4 CALLDATASIZE LT PUSH1 0x3E JUMPI PUSH4 0xFFFFFFFF PUSH29 0x100000000000000000000000000000000000000000000000000000000 PUSH1 0x0 CALLDATALOAD DIV AND PUSH4 0x637A1395 DUP2 EQ PUSH1 0x43 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST CALLVALUE DUP1 ISZERO PUSH1 0x4E JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x55 PUSH1 0xC7 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD PUSH1 0x20 DUP1 DUP3 MSTORE DUP4 MLOAD DUP2 DUP4 ADD MSTORE DUP4 MLOAD SWAP2 SWAP3 DUP4 SWAP3 SWAP1 DUP4 ADD SWAP2 DUP6 ADD SWAP1 DUP1 DUP4 DUP4 PUSH1 0x0 JUMPDEST DUP4 DUP2 LT ISZERO PUSH1 0x8D JUMPI DUP2 DUP2 ADD MLOAD DUP4 DUP3 ADD MSTORE PUSH1 0x20 ADD PUSH1 0x77 JUMP JUMPDEST POP POP POP POP SWAP1 POP SWAP1 DUP2 ADD SWAP1 PUSH1 0x1F AND DUP1 ISZERO PUSH1 0xB9 JUMPI DUP1 DUP3 SUB DUP1 MLOAD PUSH1 0x1 DUP4 PUSH1 0x20 SUB PUSH2 0x100 EXP SUB NOT AND DUP2 MSTORE PUSH1 0x20 ADD SWAP2 POP JUMPDEST POP SWAP3 POP POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN JUMPDEST PUSH1 0x40 DUP1 MLOAD DUP1 DUP3 ADD SWAP1 SWAP2 MSTORE PUSH1 0x9 DUP2 MSTORE PUSH32 0xEBB098ED9998EAB0920000000000000000000000000000000000000000000000 PUSH1 0x20 DUP3 ADD MSTORE SWAP1 JUMP STOP LOG1 PUSH6 0x627A7A723058 KECCAK256 LT 0xe5 PUSH3 0xAF4296 0x27 SWAP10 0x2c 0xf5 0xa5 0xc0 ORIGIN LOG0 PUSH24 0x5AF077210BE856594E26C7C855CA1590EB00290000000000 ",
+                        "sourceMap": "28:116:0:-;;;;;;;;;;;;;;;;;;;;;;;48:93;;8:9:-1;5:2;;;30:1;27;20:12;5:2;48:93:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:100:-1;33:3;30:1;27:10;8:100;;;90:11;;;84:18;71:11;;;64:39;52:2;45:10;8:100;;;12:14;48:93:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;109:18;;;;;;;;;;;;;;;;;48:93;:::o"
+                    },
+                    "gasEstimates": {
+                        "creation": {
+                            "codeDepositCost": "59600",
+                            "executionCost": "111",
+                            "totalCost": "59711"
+                        },
+                        "external": {
+                            "responseString()": "infinite"
+                        }
+                    },
+                    "methodIdentifiers": {
+                        "responseString()": "637a1395"
+                    }
+                },
+                "metadata": "{\"compiler\":{\"version\":\"0.4.26+commit.4563c3fc\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"responseString\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"c:/dev/klaytn/sample/contracts/API.sol\":\"API\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/dev/klaytn/sample/contracts/API.sol\":{\"keccak256\":\"0x84ddd29ab4a3e1ea0210dd814a0e13a7bcc5dadd95e1ae7e5a35164512f12e88\",\"urls\":[\"bzzr://4ff5da02459cde3eb6dac07c0c83c813f8ca9634715380888bf1032e726b91f6\"]}},\"version\":1}",
+                "userdoc": {
+                    "methods": {}
+                }
+            }
+        }
+    },
+    "sources": {
+        "c:/dev/klaytn/sample/contracts/API.sol": {
+            "ast": {
+                "absolutePath": "c:/dev/klaytn/sample/contracts/API.sol",
+                "exportedSymbols": {
+                    "API": [
+                        10
+                    ]
+                },
+                "id": 11,
+                "nodeType": "SourceUnit",
+                "nodes": [
+                    {
+                        "id": 1,
+                        "literals": [
+                            "solidity",
+                            "^",
+                            "0.4",
+                            ".24"
+                        ],
+                        "nodeType": "PragmaDirective",
+                        "src": "0:24:0"
+                    },
+                    {
+                        "baseContracts": [],
+                        "contractDependencies": [],
+                        "contractKind": "contract",
+                        "documentation": null,
+                        "fullyImplemented": true,
+                        "id": 10,
+                        "linearizedBaseContracts": [
+                            10
+                        ],
+                        "name": "API",
+                        "nodeType": "ContractDefinition",
+                        "nodes": [
+                            {
+                                "body": {
+                                    "id": 8,
+                                    "nodeType": "Block",
+                                    "src": "102:39:0",
+                                    "statements": [
+                                        {
+                                            "expression": {
+                                                "argumentTypes": null,
+                                                "hexValue": "ebb098ed9998eab092",
+                                                "id": 6,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": true,
+                                                "kind": "string",
+                                                "lValueRequested": false,
+                                                "nodeType": "Literal",
+                                                "src": "116:11:0",
+                                                "subdenomination": null,
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_stringliteral_c4688139e3823c1c0b8c45553391e36c0a23db856510226016b5506f94d815b8",
+                                                    "typeString": "literal_string \"반환값\""
+                                                },
+                                                "value": "반환값"
+                                            },
+                                            "functionReturnParameters": 5,
+                                            "id": 7,
+                                            "nodeType": "Return",
+                                            "src": "109:18:0"
+                                        }
+                                    ]
+                                },
+                                "documentation": null,
+                                "id": 9,
+                                "implemented": true,
+                                "isConstructor": false,
+                                "isDeclaredConst": true,
+                                "modifiers": [],
+                                "name": "responseString",
+                                "nodeType": "FunctionDefinition",
+                                "parameters": {
+                                    "id": 2,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [],
+                                    "src": "71:2:0"
+                                },
+                                "payable": false,
+                                "returnParameters": {
+                                    "id": 5,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [
+                                        {
+                                            "constant": false,
+                                            "id": 4,
+                                            "name": "",
+                                            "nodeType": "VariableDeclaration",
+                                            "scope": 9,
+                                            "src": "94:6:0",
+                                            "stateVariable": false,
+                                            "storageLocation": "default",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_memory_ptr",
+                                                "typeString": "string"
+                                            },
+                                            "typeName": {
+                                                "id": 3,
+                                                "name": "string",
+                                                "nodeType": "ElementaryTypeName",
+                                                "src": "94:6:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_string_storage_ptr",
+                                                    "typeString": "string"
+                                                }
+                                            },
+                                            "value": null,
+                                            "visibility": "internal"
+                                        }
+                                    ],
+                                    "src": "93:8:0"
+                                },
+                                "scope": 10,
+                                "src": "48:93:0",
+                                "stateMutability": "pure",
+                                "superFunction": null,
+                                "visibility": "public"
+                            }
+                        ],
+                        "scope": 11,
+                        "src": "28:116:0"
+                    }
+                ],
+                "src": "0:146:0"
+            },
+            "id": 0
+        }
+    }
+}
